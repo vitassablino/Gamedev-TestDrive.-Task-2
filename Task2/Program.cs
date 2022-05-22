@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        byte AZNV;
+        byte ADSB;
         sbyte flyDetection;
         short flyRoll;
         ushort fuelLevel;
@@ -13,6 +13,6 @@ class Program
         long flySpeed;
         ulong dlyHeight;
         float signalGain;
-        double flyAmount;
+        double azimuth;
     }
 }
